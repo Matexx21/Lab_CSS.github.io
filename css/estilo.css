@@ -1,0 +1,321 @@
+*{margin: 0 ; padding:0px ;}
+/* *{border: 1px solid #FF0000;} */
+/************************************************/
+
+/************ Fuentes Necesarias *********/
+@font-face {
+    font-family: 'Romanesco';
+    src: url(../fonts/Romanesco-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/********** Fuentes a Utilizar ***************/
+.titulo1{
+    font-size: 48px;
+    font-weight: bold ;
+    font-family: 'Inter';
+}
+
+.titulo2{
+    font-size: 32px;
+    font-weight: 600;   /*Semi Bold*/
+    font-family: 'Inter';
+}
+
+.miniatura{
+    font-size: 14px;
+    font-weight: 400;   /*Normal (Regular)*/
+    font-family: 'Inter';
+}
+
+.romanesco{
+    font-family: 'Romanesco';
+    font-size: 96px;
+    font-weight: 400;   
+}
+
+.menu{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    text-transform: uppercase; /*Mayusculas*/
+}
+
+.normal{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+
+.placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    color:#9E9A9A;
+}
+
+/******************************************/
+/* Colores de fondp */
+.bgcolorgris{
+    background-color: #F2F6F6;
+}
+
+.bgcolorverdec{
+    background-color: #a3a656;
+}
+
+/**************************************/
+/*colores de texto*/
+.textcolorblanco{
+    color: #FFFFFF;
+}
+/**************************************/
+/*HEADER*/
+
+/*Etiqueta Header*/
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MenuSPA{
+    display: inline-block;
+    height: 70px;
+    width: 60%;
+    padding-left: 70px;
+}
+
+.MenuSPA ul{
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 25px;
+}
+
+.MenuSPA ul li:hover{
+    color: #FFFF00;
+}
+
+.InformacionPag{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.InformacionPag div{
+    float: right;
+}
+
+.BloqueInformacion{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+}
+
+#Micuenta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Idioma{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/******************************************/
+/*FONDO IMAGEN*/
+
+#imagenFondo{
+    background-image: url(../img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.p-titulosMain{
+    padding: 150px 0px 0px 150px;
+}
+
+/******************************/
+/* Caja de reservas y codigo */
+#reservaciones{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#cajareservaciones{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.codigo_redondo{
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+/***********************************/
+/*Cartas de masaje */
+
+#serviciosmasaje{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+}
+
+.cardmasaje{
+    display: inline-block;
+    width: 320px;
+
+}
+
+.cardmasaje img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.titulo_redondo{
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
+
+.boton_de_precio_y_reserva{
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    
+}
+
+.boton_de_precio_y_reserva a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 10px 25px;
+}
+
+.boton_de_precio_y_reserva a:hover{
+    background-color: #384001;
+    
+}
+
+/***************************************/
+/*Seccion Socios*/
+
+#socio{
+    height: 770px;
+}
+#caja_socios{
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0px;
+    
+
+    
+}
+.cardsocio{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+
+}
+  
+.contenedor_socio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_imagen{
+    border-radius: 50%;
+    height: 233px;
+    width: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 12px solid #384001;
+    background-color: #FFFFFF;
+}
+    
+.cardsocio a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 35px;
+    display: block;
+    padding: 20px 25px;
+    width: 250px;
+    margin: 30px 0px 20px 0px;
+}
+
+.socios_lista{
+    text-align: left;
+    padding-left: 100px;
+
+}
+.cardsocio a:hover{
+    background-color: #384001;
+}
+
+/*********************************************************/
+/*FOOTER*/
+footer{
+    height: 97px;
+    width: 100%;
+    color: #a3a656;
+    background-color: #384001;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MenuFooter{
+    display: inline-block;
+    height: 70px;
+    width: 65%;
+    padding-left: 70px;
+}
+
+.MenuFooter ul{
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 60px;
+}
+
+.MenuFooter ul li:hover{
+    color: #FFFF00;
+}
+
+.Redes{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-right: 30px;
+}

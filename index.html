@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de SPA</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <main>
+        <header class="menu bgcolorverdec">
+            <div class="MenuSPA">
+                <ul>
+                    <li>PROMOCIONES</li>
+                    <li>FOTOS</li>
+                    <li>SERVICIOS</li>
+                    <li>MAPA</li>
+                    <li>CONTACTO</li>
+                </ul>
+            </div>
+
+            <div class="InformacionPag">
+                <div class="BloqueInformacion"> 
+                    <div class="Idioma">
+                        <span>ES</span>
+                        <img src="./img/flag.png" alt="bandera">
+                        <img src="./img/arrow.png" alt="viñeta">
+                    </div>
+                
+                    <div id="Micuenta">
+                        <img src="img/user.png" alt="usuario">
+                        <span>Mi cuenta</span>
+                    </div>
+                </div>
+            </div>       
+        </header>
+            <!-- Imagen de Fondo-->
+            <section id="imagenFondo" class="p-titulosMain" style="height: 442px;">
+                <p class="romanesco" style="margin-bottom: 20px;">SPA-Todos</p>
+                <p class="titulo2" style="width: 600px;">Regálate un momento de paz y consiente a tu piel en el mejor lugar </p>
+            </section>
+
+            <!-- Caja de reservas y codigo-->
+            <section>
+                <div id="reservaciones" class="bgcolorgris menu">
+                    <div id="cajareservaciones">
+                        <p>RESERVA TU CITA:</p>
+                        <input type="text" class="codigo_redondo" name="reservar_cita">
+                    </div>
+                    <div id="cajareservaciones">
+                        <p>CÓDIGO PROMOCIONAL:</p>
+                        <input type="text" class="codigo_redondo" name="reserva_codigo" placeholder="CODIGO" style="padding-left: 10px;">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- cartas de masaje-->
+            <section id="serviciosmasaje">
+                <div class="cardmasaje">
+                    <p class="titulo2 titulo_redondo bgcolorverdec textcolorblanco">Masaje de pies</p>
+                    <div>
+                        <img src="img/pies.png" alt="Foto masaje de pies">
+                    </div>
+                    <p class="miniatura" style="padding: 10px 0px;">Esta es una descripción de la opción en cuestión ...</p>
+                    <div class="boton_de_precio_y_reserva">
+                        <p class="titulo2">$65</p>
+                        <a href="#" class="menu bgcolorverdec" style="font-weight: 600;">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="cardmasaje">
+                    <p class="titulo2 titulo_redondo bgcolorverdec textcolorblanco">Masaje Relajante</p>
+                    <div class="imagen_carta">
+                        <img src="img/relajante.png" alt="Foto masaje relajante">
+                    </div>
+                    <p class="miniatura" style="padding: 10px 0px;">Esta es una descripción de la opción en cuestión ...</p>
+                    <div class="boton_de_precio_y_reserva">
+                        <p class="titulo2">$60</p>
+                        <a href="#" class="menu bgcolorverdec" style="font-weight: 600;">Reservar</a>
+                    </div>
+                </div>
+
+                <div class="cardmasaje">
+                    <p class="titulo2 titulo_redondo bgcolorverdec textcolorblanco">Masaje con bambú</p>
+                    <div class="imagen_carta">
+                        <img src="img/bambu.png" alt="Foto masaje con bambú">
+                    </div>
+                    <p class="miniatura" style="padding: 10px 0px;">Esta es una descripción de la opción en cuestión ...</p>
+                    <div class="boton_de_precio_y_reserva">
+                        <p class="titulo2">$58</p>
+                        <a href="#" class="menu bgcolorverdec" style="font-weight: 600;">Reservar</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="socio" class="bgcolorgris">
+                <p class="titulo2" style="padding: 20px; text-align: center;">Hazte socio y prueba nuestros beneficios</p>
+                <div id="caja_socios">
+                    <div class="cardsocio">
+                        <div class="contenedor_socio">
+                            <div class="contenedor_imagen">
+                                <img src="img/gold.png" alt="foto membresia gold">
+                            </div>
+                        </div>
+                        <p class="titulo2">Gold</p>
+                        <a href="#" class="menu bgcolorverdec" style="font-weight:600;">Ver Condiciones</a>
+                        <div class="socios_lista miniatura">
+                            <ul>
+                                <li>Gimnasio</li>
+                                <li>Piscina</li>
+                                <li>Todos los tratamientos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cardsocio">
+                        <div class="contenedor_socio">
+                            <div class="contenedor_imagen">
+                                <img src="img/premium.png" alt="foto membresia premium">
+                            </div>
+                        </div>
+                        <p class="titulo2">Premium</p>
+                        <a href="#" class="menu bgcolorverdec" style="font-weight:600;">Ver Condiciones</a>
+                        <div class="socios_lista miniatura">
+                            <ul>
+                                <li>Gimnasio</li>
+                                <li>Todos los tratamientos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cardsocio">
+                        <div class="contenedor_socio">
+                            <div class="contenedor_imagen">
+                                <img src="img/plate.png" alt="foto membresia plate">
+                            </div>
+                        </div>
+                        <p class="titulo2">Plate</p>
+                        <a href="#" class="menu bgcolorverdec" style="font-weight:600;">Ver Condiciones</a>
+                        <div class="socios_lista miniatura">
+                            <ul>
+                                <li>Tratamientos faciales</li>  
+                            </ul>
+                        </div>
+                    </div>
+                </div>     
+            </section>
+        
+        <footer class="menu ">
+        <nav class="MenuFooter">
+                <ul>
+                    <li>POLÍTICAS DE COOKIES</li>
+                    <li>AVISO LEGAL</li>
+                    <li>PROTECCIÓN DE DATOS</li>
+                    <li>MAPA DEL SITIO</li>
+                </ul>
+        </nav>
+
+        <div>
+            <div class="Redes">
+                <span class="Menu">SÍGUENOS EN </span>
+                <img src="img/rs_facebook.png" alt="Foto de Facebook">
+                <img src="img/rs_twiter.png" alt="Foto de Twitter">
+                <img src="img/rs_youtube.png" alt="Foto de Youtube">
+            </div>
+        </div>
+        </footer>
+    </main>
+</body>
+</html>
